@@ -20,11 +20,11 @@
                 var origOffsetY = menu.offset().bottom;
                 scroll();
                 function scroll() {
-                    if ($(window).scrollTop() >= 290) {
+                    if ($(window).scrollTop() >= 50) {
                         $('.menu').removeClass('nosticky');
                         $('.menu').addClass('sticky');
 
-                    } else if ($(window).scrollTop() <= 290) {
+                    } else if ($(window).scrollTop() <= 50) {
                         $('.menu').addClass('nosticky');
 
                         $('.menu').removeClass('sticky');
@@ -63,6 +63,7 @@
                 left: 0;
                 z-index: 1030;
             }
+      
             .nosticky {
                 position:fixed;
                 top:0;
@@ -112,14 +113,14 @@
                </div>
             </div> -->
 
-        <nav class="menu navbar navbar-expand-sm bg-dark navbar-dark nosticky"  style="height: 60px !important">
+        <nav class="menu navbar navbar-expand-sm bg-dark navbar-dark nosticky"  >
             <a class="navbar-brand" href="#" style="color:white !important">Si eres:</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
+            <div class="collapse navbar-collapse sticky2" id="collapsibleNavbar">
+                <ul class="navbar-nav" >
+                    <li class="nav-item"  >
                         <a class="nav-link" href="index.html" style="color:white !important">INICIO</a>
                     </li>
                     <li class="nav-item">
@@ -143,7 +144,7 @@
         <!--  </div> -->
         <div class="container" style="margin-top:30px">
             <div class="row">
-                <div class="col-sm-4">
+                <div class="col-md-4 col-sm-12 col-12">
                     <h2>Planes de Salud</h2>
                     <h5>Ejecutivo:</h5>
                     <div class="fakeimg1"> <!--<img src="cecilia.jpg" style="width:180px;height:200px;" alt=""/>--></div>
@@ -154,10 +155,10 @@
 
                     <hr class="d-sm-none">
                 </div>
-                <div class="col-sm-8">
+                <div class="col-md-8 col-sm-12 col-12">
                     <div class="row" style="height: 150px !important;margin-top:30px">
-                        <div class="col-sm-5" style="background-color: gray"></div>
-                        <div class="col-sm-7"><h2>PLANIFICA Y GESTIONA ATENCION PACIENTES</h2></div>
+                        <div class="col-md-5 col-sm-12 col-12" style="background-color: gray"></div>
+                        <div class="col-md-7 col-sm-12 col-12"><h2>PLANIFICA Y GESTIONA ATENCION PACIENTES</h2></div>
 
                         <!--<h2>PLANIFICA Y GESTIONA ATENCION PACIENTES</h2>
                         <h5>Para especialistas de la salud</h5>
@@ -165,24 +166,24 @@
                         <!-- <img src="infografia.gif" style="width:100%;height:100%;" alt=""/>-->
                     </div>
                     <div class="row" style="height: 150px !important;margin-top:30px">
-                        <div class="col-sm-5" style="background-color: gray"></div>
-                        <div class="col-sm-7"><h2>PLANIFICA Y GESTIONA ATENCION PACIENTES</h2></div>
+                        <div class="col-md-5 col-sm-12 col-12" style="background-color: gray"></div>
+                        <div class="col-md-7 col-sm-12 col-12"><h2>PLANIFICA Y GESTIONA ATENCION PACIENTES</h2></div>
                     </div>
                     <div class="row" style="height: 150px !important;margin-top:30px">
-                        <div class="col-sm-5" style="background-color: gray"></div>
-                        <div class="col-sm-7"><h2>PLANIFICA Y GESTIONA ATENCION PACIENTES</h2></div>
+                        <div class="col-md-5 col-sm-12 col-12" style="background-color: gray"></div>
+                        <div class="col-md-7 col-sm-12 col-12"><h2>PLANIFICA Y GESTIONA ATENCION PACIENTES</h2></div>
                     </div>
                     <div class="row" style="height: 150px !important;margin-top:30px">
-                        <div class="col-sm-5" style="background-color: gray"></div>
-                        <div class="col-sm-7"><h2>PLANIFICA Y GESTIONA ATENCION PACIENTES</h2></div>
+                        <div class="col-md-5 col-sm-12 col-12" style="background-color: gray"></div>
+                        <div class="col-md-7 col-sm-12 col-12"><h2>PLANIFICA Y GESTIONA ATENCION PACIENTES</h2></div>
                     </div>
                     <div class="row" style="height: 150px !important;margin-top:30px">
-                        <div class="col-sm-5" style="background-color: gray"></div>
-                        <div class="col-sm-7"><h2>PLANIFICA Y GESTIONA ATENCION PACIENTES</h2></div>
+                        <div class="col-md-5 col-sm-12 col-12" style="background-color: gray"></div>
+                        <div class="col-md-7 col-sm-12 col-12"><h2>PLANIFICA Y GESTIONA ATENCION PACIENTES</h2></div>
                     </div>
                     <div class="row" style="height: 150px !important;margin-top:30px">
-                        <div class="col-sm-5" style="background-color: gray"></div>
-                        <div class="col-sm-7"><h2>PLANIFICA Y GESTIONA ATENCION PACIENTES</h2></div>
+                        <div class="col-md-5 col-sm-12 col-12" style="background-color: gray"></div>
+                        <div class="col-md-7 col-sm-12 col-12"><h2>PLANIFICA Y GESTIONA ATENCION PACIENTES</h2></div>
                     </div>
                     <p> </p>
                     <p>Sistema multiplatorma que apoya a los procesos de atención de pacientes del área de la salud..</p>
